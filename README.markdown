@@ -69,5 +69,4 @@ Who Made This?
 --------------
 <a href="http://commonsware.com">![CommonsWare](http://commonsware.com/images/logo.png)</a>
 
-[gg]: http://groups.google.com/group/cw-android
 [endless]: http://github.com/commonsguy/cwac-endless/tree/master
