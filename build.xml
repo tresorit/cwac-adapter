@@ -110,7 +110,7 @@
         </zip>
     </target>
 
-    <target name="jar" depends="compile">
+    <target name="jar" depends="debug">
         <jar
             destfile="bin/CWAC-Adapter.jar"
             basedir="bin/classes"

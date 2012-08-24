@@ -16,8 +16,7 @@ not an implementation.
 So, CWAC offers an `AdapterWrapper` to fill this void.
 
 By itself, it is not terribly interesting. However, other CWAC
-projects, like [`EndlessAdapter`][endless] and
-[`ThumbnailAdapter`][thumbnail], take advantage of it.
+projects, like [`EndlessAdapter`][endless], take advantage of it.
 
 This is packaged as an Android library project, though a simple
 JAR is also available from the Downloads section of this
@@ -25,7 +24,7 @@ GitHub repository.
 
 Usage
 -----
-Just extend AdapterWrapper and override whatever adapter-related
+Just extend `AdapterWrapper` and override whatever adapter-related
 methods you wish. By default, all adapter methods delegate to the
 wrapped adapter. Your code can get at the wrapped adapter by
 calling `getWrappedAdapter()`.
@@ -36,14 +35,12 @@ None at present.
 
 Version
 -------
-This is version v0.4.0 of this module, meaning it is slowly climbing
-towards respectability.
+This is version v1.0 of this module. And there was much rejoicing.
 
 Demo
 ----
 There is no demo project. Please refer to
-[`EndlessAdapter`][endless] and [`ThumbnailAdapter`][thumbnail]
-for examples of using this class.
+[`EndlessAdapter`][endless] for an example of using this class.
 
 License
 -------
@@ -60,6 +57,7 @@ and stack traces if you are encountering crashes.
 
 Release Notes
 -------------
+v1.0.0: made this the official 1.0 release
 v0.4.0: converted to Android library project
 
 Who Made This?
@@ -68,4 +66,3 @@ Who Made This?
 
 [gg]: http://groups.google.com/group/cw-android
 [endless]: http://github.com/commonsguy/cwac-endless/tree/master
-[thumbnail]: http://github.com/commonsguy/cwac-thumbnail/tree/master
