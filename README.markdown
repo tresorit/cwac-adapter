@@ -62,8 +62,8 @@ Do not ask for help via Twitter.
 
 Release Notes
 -------------
-v1.0.0: made this the official 1.0 release
-v0.4.0: converted to Android library project
+- v1.0.0: made this the official 1.0 release
+- v0.4.0: converted to Android library project
 
 Who Made This?
 --------------
