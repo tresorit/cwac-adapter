@@ -18,9 +18,8 @@ So, CWAC offers an `AdapterWrapper` to fill this void.
 By itself, it is not terribly interesting. However, other CWAC
 projects, like [`EndlessAdapter`][endless], take advantage of it.
 
-This is packaged as an Android library project, though a simple
-JAR is also available from the Downloads section of this
-GitHub repository.
+This is packaged as an Android library project, though
+[a simple JAR is also available](https://github.com/commonsguy/downloads).
 
 Usage
 -----
