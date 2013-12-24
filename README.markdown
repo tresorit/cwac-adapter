@@ -18,9 +18,25 @@ So, CWAC offers an `AdapterWrapper` to fill this void.
 By itself, it is not terribly interesting. However, other CWAC
 projects, like [`EndlessAdapter`][endless], take advantage of it.
 
-This is packaged as an Android library project, though a simple
-JAR is also available from the Downloads section of this
-GitHub repository.
+This Android library project is 
+[available as a JAR](https://github.com/commonsguy/cwac-adapter/releases)
+or as an artifact for use with Gradle. To use that, add the following
+blocks to your `build.gradle` file:
+
+```groovy
+repositories {
+    maven {
+        url "https://repo.commonsware.com.s3.amazonaws.com"
+    }
+}
+
+dependencies {
+    compile 'com.commonsware.cwac:adapter:1.0.1'
+}
+```
+
+Or, if you cannot use SSL, use `http://repo.commonsware.com` for the repository
+URL.
 
 Usage
 -----
@@ -35,7 +51,7 @@ None at present.
 
 Version
 -------
-This is version v1.0 of this module. And there was much rejoicing.
+This is version v1.0.1 of this module. And there was much rejoicing.
 
 Demo
 ----
@@ -62,6 +78,7 @@ Do not ask for help via Twitter.
 
 Release Notes
 -------------
+- v1.0.1: added Gradle build files and published AAR
 - v1.0.0: made this the official 1.0 release
 - v0.4.0: converted to Android library project
 
